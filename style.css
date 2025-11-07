@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======== CABEÇALHO ======== */
+header {
+    background: linear-gradient(90deg, #ffd9b3, #ffe6cc);
+    color: #4a2500;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #b35a00;
+}
+
+header p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #663300;
+}
+
+/* ======== SEÇÕES ======== */
+section {
+    background-color: #fffaf2;
+    margin: 30px auto;
+    padding: 30px 40px;
+    max-width: 850px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+h2 span {
+    color: #e59866;
+}
+
+h3 {
+    color: #cc7722;
+    border-left: 4px solid #f8c471;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+/* ======== TEXTO E CITAÇÕES ======== */
+p {
+    line-height: 1.7;
+    color: #555;
+}
+
+blockquote {
+    background-color: #fff4e6;
+    border-left: 6px solid #f5b041;
+    padding: 15px 25px;
+    font-style: italic;
+    margin: 40px auto;
+    width: 70%;
+    border-radius: 10px;
+    color: #5a3c1a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ======== LISTAS ======== */
+ul, ol {
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ======== IMAGEM ======== */
+img {
+    display: block;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    width: 450px;
+}
+
+/* ======== TABELA ======== */
+table {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 75%;
+    background-color: #fffefb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+caption {
+    background-color: #fdebd0;
+    color: #5a3c1a;
+    font-weight: 600;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #fae5d3;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #fbeee6;
+    color: #6e3b0e;
+}
+
+td[colspan="2"] {
+    background-color: #fff9f2;
+    font-style: italic;
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+    text-align: center;
+    background-color: #ffe6cc;
+    color: #5a3c1a;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 40px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.05);
+}
